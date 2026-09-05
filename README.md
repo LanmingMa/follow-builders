@@ -34,6 +34,18 @@ The agent will ask you:
 No API keys needed — all content is fetched centrally.
 Your first digest arrives immediately after setup.
 
+### Codex Quick Start
+
+Open this repository in Codex and ask it to follow `AGENTS.md`, then run:
+
+```bash
+bash setup-codex.sh
+bash healthcheck.sh
+bash run-digest.sh
+```
+
+`run-digest.sh` prints the prepared digest payload used by the skill. Codex can then remix that payload according to `SKILL.md` and the prompt files. This fork does not change the upstream source list or digest product logic.
+
 ## Changing Settings
 
 Your delivery preferences are configurable through conversation. Just tell your agent:
